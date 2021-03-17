@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4798810791224478533}
   - component: {fileID: 4798810791224478532}
   - component: {fileID: 4798810791224478535}
+  - component: {fileID: -8516430008278857424}
   m_Layer: 0
   m_Name: FireShot
   m_TagString: Untagged
@@ -158,9 +159,22 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4798810791224478534}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79c59f1951eb30a4aa65a005d1ff78cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  td: {fileID: 11400000, guid: 47936a53fa3e53a45ab18f492686473b, type: 2}
+--- !u!114 &-8516430008278857424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4798810791224478534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81dd2b9d89676c641867ed14f0bb9622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   td: {fileID: 11400000, guid: 47936a53fa3e53a45ab18f492686473b, type: 2}

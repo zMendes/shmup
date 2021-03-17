@@ -8,6 +8,8 @@ public class EnemyController : SteerableBehaviour, IShooter, IDamageable
     public GameObject shot;
     public AudioClip shotSFX;
 
+    public int life = 1;
+
 
     GameManager gm;
 
@@ -25,7 +27,8 @@ public class EnemyController : SteerableBehaviour, IShooter, IDamageable
 
     public void TakeDamage()
     {
-        Die();
+        life--;
+        if (life <=0) Die();
     }
 
     public void Die()

@@ -359,6 +359,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   td: {fileID: 11400000, guid: 388701daaa55c334e9f5368eb44c325e, type: 2}
   shot: {fileID: 3281219108692307204, guid: 41ac6b2c985b98145b81e6d0182c0668, type: 3}
+  shotSFX: {fileID: 0}
+  life: 2
 --- !u!114 &-6836560500840732143
 MonoBehaviour:
   m_ObjectHideFlags: 0

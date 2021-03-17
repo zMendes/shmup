@@ -14,7 +14,7 @@ public class UI_Leaderboard : MonoBehaviour
     public Text[] text;
     public Text[] time;
     //DatabaseReference reference;
-    bool sorted = false;
+    //bool sorted = false;
     List<Score> list;
     List<Score> sortedList;
 
@@ -35,7 +35,7 @@ public class UI_Leaderboard : MonoBehaviour
 
     void OnEnable()
     {
-        sorted = false;
+        //sorted = false;
         sortedList = new List<Score>();
         gm = GameManager.GetInstance();
 
